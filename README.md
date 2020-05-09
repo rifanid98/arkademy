@@ -92,7 +92,7 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
     * Lokasi default mamp di macos : Applications > MAMP > htdocs
 
     > lokasi folder htdocs berbeda, tergantung dari konfigurasi yang dilakukan.
-- Buka halaman http://localhost/arkademy/6b/6c.php
+- Buka halaman http://localhost/arkademy/6c/6c.php
 - Maka hasilnya akan muncul berupa tampilan web dinamis beserta fitur CRUD yang sudah berfungsi.
 
 #### Halaman Home
