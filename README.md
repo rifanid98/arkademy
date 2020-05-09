@@ -39,8 +39,8 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 
 ### Soal 6
 
-#### 6a
-- Install xamp di komputer (windows) atau lamp (linux) atau mamp (macOS) (abaikan jika sudah install)
+#### Soal 6a
+- Install xampp di komputer (windows) atau lamp (linux) atau mamp (macOS) (abaikan jika sudah install)
 - Masuk ke http://localhost/phpmyadmin
 - Pilih tab import
 - Browse dan pilih file penjualanku.sql
@@ -55,8 +55,8 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 #### Hasil eksekusi query.sql
 ![preview eksekusi query.sql](https://github.com/rifanid98/arkademy/blob/master/6a/query.png)
 
-#### 6b
-- Install xamp di komputer (windows) atau lamp (linux) atau mamp (macOS) (abaikan jika sudah install)
+#### Soal 6b
+- Install xampp di komputer (windows) atau lamp (linux) atau mamp (macOS) (abaikan jika sudah install)
 - Copy dan paste folder 6b bersama dengan file-file di dalamnya ke folder htdocs.
     * Lokasi default xampp di windows : 
       C:/Program Files(x86)/xampp/htdocs
@@ -80,3 +80,29 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 
 #### Tampilan Hapus
 ![Home](https://github.com/rifanid98/arkademy/blob/master/6b/screenshot/delete.png)
+
+#### Soal 6c
+- Lakukan langkah-langkah yang sudah dijelaskan pada soal nomor 6a
+- Copy dan paste folder 6c bersama dengan file-file di dalamnya ke folder htdocs.
+    * Lokasi default xampp di windows : 
+      C:/Program Files(x86)/xampp/htdocs
+      atau
+      C:/Program Files/xampp/htdocs
+    * Lokasi default xampp di linux : /opt/lampp/htdocs
+    * Lokasi default mamp di macos : Applications > MAMP > htdocs
+
+    > lokasi folder htdocs berbeda, tergantung dari konfigurasi yang dilakukan.
+- Buka halaman http://localhost/arkademy/6b/6c.php
+- Maka hasilnya akan muncul berupa tampilan web dinamis beserta fitur CRUD yang sudah berfungsi.
+
+#### Halaman Home
+![Home](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/home.png)
+
+#### Tampilan ADD
+![Home](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/add.png)
+
+#### Tampilan EDIT
+![Home](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/edit.png)
+
+#### Tampilan Hapus
+![Home](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/delete.png)
