@@ -2,8 +2,8 @@
 repository untuk jawaban dari soal tes arkademy bootcamp
 
 ### Soal 1
-- Buka code editor php online: http://sandbox.onlinephpfunctions.com/.
-- Copy paste kode tersebut ke http://sandbox.onlinephpfunctions.com/.
+- Buka code editor php online: https://wtools.io/php-sandbox.
+- Copy paste kode tersebut ke https://wtools.io/php-sandbox.
 - Klik tombol execute code.
 - Maka hasilnya akan muncul berupa data json.
 
@@ -19,20 +19,20 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
     dan masih banyak lagi.
 
 ### Soal 2
-- Buka code editor php online: http://sandbox.onlinephpfunctions.com/.
-- Copy paste kode tersebut ke http://sandbox.onlinephpfunctions.com/.
+- Buka code editor php online: https://wtools.io/php-sandbox.
+- Copy paste kode tersebut ke https://wtools.io/php-sandbox.
 - Klik tombol execute code
 - Maka hasilnya akan muncul berupa boolean true or false.
 
 ### Soal 3
-- Buka code editor php online: http://sandbox.onlinephpfunctions.com/.
-- Copy paste kode tersebut ke http://sandbox.onlinephpfunctions.com/.
+- Buka code editor php online: https://wtools.io/php-sandbox.
+- Copy paste kode tersebut ke https://wtools.io/php-sandbox.
 - Klik tombol execute code
 - Maka hasilnya akan muncul berupa angka yang merupakan jumlah huruf vokal dari string yang tersedia.
 
 ### Soal 4
-- Buka code editor php online: http://sandbox.onlinephpfunctions.com/.
-- Copy paste kode tersebut ke http://sandbox.onlinephpfunctions.com/.
+- Buka code editor php online: https://wtools.io/php-sandbox.
+- Copy paste kode tersebut ke https://wtools.io/php-sandbox.
 - Klik tombol execute code
 - Maka hasilnya akan muncul berupa hasil dari penghitungan jumlah frasa yang ada dari suatu string.
 
