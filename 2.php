@@ -10,9 +10,9 @@ function usernameValidity($username){
     }
 }
 
-var_dump(usernameValidity("john.smith"));
-var_dump(usernameValidity("johnsmith26"));
-var_dump(usernameValidity("JOHNSmith"));
+var_dump(usernameValidity("john.smith"));   #true
+var_dump(usernameValidity("johnsmith26"));  #true
+var_dump(usernameValidity("JOHNSmith"));    #false
 
 function passwordValidity($password){
     $preg_match = "/^(?=.*[0-9])(?=.*[!”#\$%&’()*+,-.\/:;<=>?@\[\]\^_\`{|}~\\\])[a-zA-Z0-9!”#\$%&’()*+,-.\/:;<=>?@\[\]\^_\`{|}~\\\]{9}$/";
@@ -23,4 +23,4 @@ function passwordValidity($password){
     }
 }
 
-var_dump(passwordValidity("j0hnam!th"));
+var_dump(passwordValidity("j0hnam!th"));   #true
