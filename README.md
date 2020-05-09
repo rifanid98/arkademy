@@ -32,3 +32,8 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 - Copy paste kode tersebut ke http://phptester.net/.
 - Maka hasilnya akan muncul berupa hasil dari penghitungan jumlah frasa yang ada dari suatu string.
 
+### Soal 5
+- Buka code editor php online: http://phptester.net/
+- Copy paste kode tersebut ke http://phptester.net/.
+- Maka hasilnya akan muncul berupa segitiga terbalik sesuai dengan angka yang diinput
+
