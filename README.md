@@ -57,14 +57,14 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 #### 6b
 - Install xamp di komputer (windows) atau lamp (linux) atau mamp (macOS) (abaikan jika sudah install)
 - Copy dan paste folder 6b bersama dengan file-file di dalamnya ke folder htdocs.
-    > Lokasi default xampp di windows : 
+    * Lokasi default xampp di windows : 
       C:/Program Files(x86)/xampp/htdocs
       atau
       C:/Program Files/xampp/htdocs
-    > Lokasi default xampp di linux : /opt/lampp/htdocs
-    > Lokasi default mamp di macos : Applications > MAMP > htdocs
+    * Lokasi default xampp di linux : /opt/lampp/htdocs
+    * Lokasi default mamp di macos : Applications > MAMP > htdocs
 
-    * lokasi folder htdocs berbeda, tergantung dari konfigurasi yang dilakukan.
+    > lokasi folder htdocs berbeda, tergantung dari konfigurasi yang dilakukan.
 - Buka halaman http://localhost/arkademy/6b/6b.html
 - Maka hasilnya akan muncul berupa tampilan web statis sesuai gambar di bawah ini
 
