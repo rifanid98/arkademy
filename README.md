@@ -37,3 +37,20 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 - Copy paste kode tersebut ke http://phptester.net/.
 - Maka hasilnya akan muncul berupa segitiga terbalik sesuai dengan angka yang diinput.
 
+### Soal 6
+
+#### 6a
+- Install xamp di komputer (windows) atau lamp (linux) atau mamp (macOS)
+- Masuk ke http://localhost/phpmyadmin
+- Pilih tab import
+- Browse dan pilih file penjualanku.sql
+- Klik tombol go
+- Database penjualanku akan muncul di sidebar phpmyadmin
+- Pilih database penjualanku
+- Pilih tab import
+- Browse dan pilih file query.sql
+- Klik tombol go
+- Maka hasilnya akan muncul berupa query sql yang untuk menampilkan data seperti di bawah ini
+
+![preview eksekusi query.sql](https://github.com/rifanid98/arkademy/blob/master/6a/query.png)
+
