@@ -6,7 +6,7 @@ repository untuk jawaban dari soal tes arkademy bootcamp
 - Copy paste kode tersebut ke http://phptester.net/.
 - Maka hasilnya akan muncul berupa data json.
 
-##### Kegunaan JSON
+#### Kegunaan JSON
 JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikasi.
 
  - JSON sebagai format untuk bertukar data client dan server atau antar aplikasi. Contoh: RESTful API;
