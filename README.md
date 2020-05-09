@@ -35,5 +35,5 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 ### Soal 5
 - Buka code editor php online: http://phptester.net/
 - Copy paste kode tersebut ke http://phptester.net/.
-- Maka hasilnya akan muncul berupa segitiga terbalik sesuai dengan angka yang diinput
+- Maka hasilnya akan muncul berupa segitiga terbalik sesuai dengan angka yang diinput.
 
