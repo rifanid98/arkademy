@@ -1,5 +1,5 @@
 # Arkademy
-repository untuk jawaban dari soal tes arkademy bootcamp
+Repository untuk jawaban dari soal tes arkademy bootcamp
 
 ### Soal 1
 - Buka code editor php online: https://wtools.io/php-sandbox.
