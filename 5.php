@@ -1,41 +1,77 @@
 <?php
 
 function createTriangle($start, $end) {
-    $jumlah_angka_genap = 0;
-
-    $temp = [];
-    for ($i=1; $i <= $end; $i++) { 
-        if ($i % 2 == 0) {
-            $jumlah_angka_genap++;
-            array_push($temp, $i);
+    if ($end >= $start) {
+        // cari angka genap antara angka $start sampai angka $end
+        $temp = [];
+        for ($i=$start; $i <= $end; $i++) { 
+            if ($i%2 == 0) {
+                array_push($temp, $i);
+            }
         }
-    }
-
-    echo $jumlah_angka_genap;
-
-    $temp2 = array_reverse($temp);
-    $temp3 = [];
-    $i=0;
-    foreach ($temp2 as $value) {
-        $temp3[$temp[$i]] = $value;
-        $i++;
-    }
-    // var_dump($temp);
-    // var_dump($temp3);
-    echo "<pre>";
-    for ($i=$end; $i > 1; $i--) { 
-        for ($j=$end; $j > 1; $j--) { 
-            if ($i%2 == 0 && $j%2 == 0) {
-                if ((($i+$j)-2) > $end) {
-                    echo "&nbsp;&nbsp;&nbsp;";
-                } else {
-                    echo strlen($temp3[(($i+$j)-2)]) < 2 ? "&nbsp;&nbsp;".$temp3[(($i+$j)-2)] : "&nbsp;&nbsp;".$temp3[(($i+$j)-2)];
+        // echo 'Before reversed ';
+        // var_dump($temp);
+        
+        // $temp = array_reverse($temp);
+        // echo 'After reversed ';
+        // var_dump($temp);
+        // echo "<br>";
+        
+        // create a new array keys
+        $newArrayKeys = [];
+        $tempArrayKey = 0;
+        for ($i=0; $i < count($temp); $i++) { 
+            for ($j=0; $j < count($temp); $j++) { 
+                if ($i+$j >= count($temp)-1) {
+                    if ( $tempArrayKey != ($i+$j)) {
+                        $tempArrayKey = ($i+$j);
+                        if ( !in_array(($i+$j), $newArrayKeys) ) {
+                            array_push($newArrayKeys, $tempArrayKey);
+                        }
+                    }
                 }
             }
         }
-        echo "<br>";
+
+        // var_dump($newArrayKeys);
+        // echo "<br>";
+        
+        // set new array with the new keys was created
+        $newArrayWithNewKeys = [];
+        for ($i=0; $i < count($temp); $i++) { 
+            if (count($temp) > 1) {
+                $newArrayWithNewKeys[$newArrayKeys[$i]] = $temp[$i];
+            } else {
+                // if $temp only have one element
+                $newArrayWithNewKeys[] = $temp[$i];
+            }
+        }
+        // var_dump($newArrayWithNewKeys);
+        // echo "<br>";
+        // echo "<br>";
+
+        $columns = 0;
+        $setcolumns = 0;
+        for ($i=0; $i < count($temp); $i++) { 
+            for ($j=0; $j < count($temp); $j++) { 
+                if ($i+$j < count($temp)-1) {
+                    echo "   ";
+                } else {
+                    if (count($temp) > 1) {
+                        echo strlen( $newArrayWithNewKeys[ ( $i+$j ) ] ) < 2 ? '  '.$newArrayWithNewKeys[ ( $i+$j ) ] : ' '.$newArrayWithNewKeys[ ( $i+$j ) ];
+                    } else {
+                        // if $temp only have one element
+                        echo $newArrayWithNewKeys[ ( $i+$j ) ];
+                    }
+                }
+            }
+            echo "<br>";
+        }
+    } else {
+        echo "Angka pertama harus lebih kecil dari atau sama dengan angka kedua";
     }
-    echo "</pre>";
 }
 
-createTriangle(10, 20);
+echo "<pre>";
+createTriangle(2, 10);
+echo "</pre>";
