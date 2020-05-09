@@ -4,7 +4,7 @@ repository untuk jawaban dari soal tes arkademy bootcamp
 ### Soal 1
 - Buka code editor php online: https://wtools.io/php-sandbox.
 - Copy paste kode tersebut ke https://wtools.io/php-sandbox.
-- Klik tombol execute code.
+- Klik tombol execute.
 - Maka hasilnya akan muncul berupa data json.
 
 #### Kegunaan JSON
@@ -21,19 +21,19 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 ### Soal 2
 - Buka code editor php online: https://wtools.io/php-sandbox.
 - Copy paste kode tersebut ke https://wtools.io/php-sandbox.
-- Klik tombol execute code
+- Klik tombol execute
 - Maka hasilnya akan muncul berupa boolean true or false.
 
 ### Soal 3
 - Buka code editor php online: https://wtools.io/php-sandbox.
 - Copy paste kode tersebut ke https://wtools.io/php-sandbox.
-- Klik tombol execute code
+- Klik tombol execute
 - Maka hasilnya akan muncul berupa angka yang merupakan jumlah huruf vokal dari string yang tersedia.
 
 ### Soal 4
 - Buka code editor php online: https://wtools.io/php-sandbox.
 - Copy paste kode tersebut ke https://wtools.io/php-sandbox.
-- Klik tombol execute code
+- Klik tombol execute
 - Maka hasilnya akan muncul berupa hasil dari penghitungan jumlah frasa yang ada dari suatu string.
 
 ### Soal 5
@@ -79,13 +79,13 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 ![Home](https://github.com/rifanid98/arkademy/blob/master/6b/screenshot/home.png)
 
 #### Tampilan ADD
-![Home](https://github.com/rifanid98/arkademy/blob/master/6b/screenshot/add.png)
+![ADD](https://github.com/rifanid98/arkademy/blob/master/6b/screenshot/add.png)
 
 #### Tampilan EDIT
-![Home](https://github.com/rifanid98/arkademy/blob/master/6b/screenshot/edit.png)
+![EDIT](https://github.com/rifanid98/arkademy/blob/master/6b/screenshot/edit.png)
 
 #### Tampilan Hapus
-![Home](https://github.com/rifanid98/arkademy/blob/master/6b/screenshot/delete.png)
+![Hapus](https://github.com/rifanid98/arkademy/blob/master/6b/screenshot/delete.png)
 
 #### Soal 6c
 - Lakukan langkah-langkah yang sudah dijelaskan pada soal nomor 6a
@@ -105,10 +105,10 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 ![Home](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/home.png)
 
 #### Tampilan ADD
-![Home](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/add.png)
+![ADD](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/add.png)
 
 #### Tampilan EDIT
-![Home](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/edit.png)
+![EDIT](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/edit.png)
 
 #### Tampilan Hapus
-![Home](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/delete.png)
+![Hapus](https://github.com/rifanid98/arkademy/blob/master/6c/screenshot/delete.png)
