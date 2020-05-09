@@ -2,7 +2,7 @@
 
 function biodata($name,$age){
     $address = "Kp. Sinagar RT 03/07, Ds. Cihideung Udik, Kec. Ciampea Kab. Bogor 16620";
-    $hobbies = ["ngoding","gaming","learning"];
+    $hobbies = ["coding","gaming","learning"];
     $is_married = false;
     $list_school = [
         "elementary_school" => [
