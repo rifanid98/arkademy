@@ -1,11 +1,8 @@
 <?php
 
 function count_vowels($strings){
-    $temp = [];
-    $string = $strings;
-    for ($i=0; $i < strlen($string); $i++) { 
-        array_push($temp, substr($string,$i,1));
-    }
+    // split strings to array
+    $temp = str_split($strings);
     
     $vocals = ["a", "i", "u", "e", "o"];
     $vowels = 0;
