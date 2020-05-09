@@ -52,6 +52,7 @@ JSON biasanya digunakan sebagai format standar untuk bertukar data antar aplikas
 - Klik tombol go
 - Maka hasilnya akan muncul berupa query sql yang akan menampilkan data seperti di bawah ini
 
+#### Hasil eksekusi query.sql
 ![preview eksekusi query.sql](https://github.com/rifanid98/arkademy/blob/master/6a/query.png)
 
 #### 6b
